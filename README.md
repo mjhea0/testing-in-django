@@ -7,7 +7,7 @@ The project is based on **Django 1.5**.
 
 ### Blog Posts
 
-1. [Best practices and examples](test)
+1. [Best practices and examples](http://www.realpython.com/blog/python/testing-in-django-part-1-best-practices-and-examples/)
 
 ### To do
 
