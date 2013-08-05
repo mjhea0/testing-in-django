@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block sidebar %}
+<li><a href="/">Home</a></li>
+<li><a href="/add">Add</a></li>
+{% endblock %}
+
+{% block content %}
+
+{% if whatever.count > 0 %}
+{% for w in whatever %}
+<div>
+<h2>{{ w.title }}</a></h2>
+<p>{{ w.body }}</p>
+</div>
+{% endfor %}
+{% else %}
+<p>Nothing.</p>
+{% endif %}
+
+{% endblock %}
