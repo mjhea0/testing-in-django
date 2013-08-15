@@ -3,7 +3,6 @@ from django.test import TestCase
 from whatevs.models import Forum, Thread
 
 class WhateverTestMommy(TestCase):
-
 	def test_forum_creation_mommy(self):
 		new_forum = mommy.make('whatevs.Forum')
 		new_thread = mommy.make('whatevs.Thread')
